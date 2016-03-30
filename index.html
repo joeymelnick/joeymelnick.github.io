@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Joey Melnick - Web Developer and Designer</title>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+      <div class="container-fluid">
+   
+   <!--Nav bar coding starts here-->
+    <nav class = 'navbar navbar-fixed-top'>
+      <div class='navbar-header pull-left'>
+        <ul class = 'nav navbar-nav bigger'>
+          <li class = 'nav-item'><a href='#' class='nav-link'>Joey Melnick</a></li>
+        </ul>
+      </div>
+
+      
+      <div class='row pull-right'>
+      
+      <!-- Code for larger screens navbar -->   
+        <ul class="nav navbar-nav hidden-xs">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        
+        <!-- code for mobile navbar --> 
+        <ul class="nav visible-xs">
+          <li role="presentation" class="dropdown pull-right">
+            <a class="dropdown-toggle dropdown-btn" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+              <button>&#9776;</button>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="nav-item bigger-nav">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li> 
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+     <div class='background'>
+     <!-- This is where the main/hero page lives -->
+      <div class='row hero-unit'
+      <a name ='home'></a>
+      <div class='row title'>
+        <h1>Joey Melnick</h1>
+        <p>HTML, CSS, JavaScript and More</p>
+      </div>
+
+      <hr>
+      <div class='buttons row'>         
+      <!-- Buttons for mobile -->
+      
+        <div class='visible-xs text-center'>
+          <a href="https://twitter.com/jmelnick86" target="_blank" class='black-hover'>
+            <button class='btn' onmouseover="invertTwitter()" onmouseout="invertTwitter2()">
+              <div class='pull-left twitter-black'></div>
+              <div class='pull-left twitter-white'></div>
+              <span class ='img-btn'>Twitter</span>
+            </button>
+          </a>
+        </div>
+        
+        <div class='visible-xs text-center'>
+          <a href="https://github.com/joeymelnick" target="_blank" class='black-hover'>
+            <button class='btn' onmouseover="invertGithub()" onmouseout="invertGithub2()">
+              <div class='pull-left github-black'></div>
+              <div class='pull-left github-white'></div>
+              <span class ='img-btn'>Github</span>
+            </button>
+          </a>
+        </div>
+
+        <div class='visible-xs text-center'>
+          <a href="https://www.linkedin.com/in/josephmelnick1" target="_blank" class='black-hover'>
+            <button class='btn' onmouseover="invertLinked()" onmouseout="invertLinked2()">
+              <div class='pull-left linked-black'></div>
+              <div class='pull-left linked-white'></div>
+              <span class ='img-btn'>LinkedIn</span>
+            </button>
+          </a>
+        </div>
+  
+        <div class='visible-xs text-center'>
+          <a href="mailto:jmelnick86@gmail.com" target="_top" class='black-hover' onmouseover="invertEmail()" onmouseout="invertEmail2()">
+            <button class='btn'>
+              <div class='pull-left email-black'></div>
+              <div class='pull-left email-white'></div>
+              <span class ='img-btn'>eMail</span>
+            </button>
+          </a>
+        </div>
+
+      <!-- non-mobile button set -->
+        <div class='visible-sm visible-md visible-lg text-center'>
+          
+          <a href="https://twitter.com/jmelnick86" target="_blank" class='black-hover'>
+            <button class='btn' onmouseover="invertTwitter()" onmouseout="invertTwitter2()">
+              <div class='pull-left twitter-black'></div>
+              <div class='pull-left twitter-white'></div>
+              <span class ='img-btn'>Twitter</span>
+            </button>
+          </a>
+     
+          <a href="https://github.com/joeymelnick" target="_blank" class='black-hover'>
+            <button class='btn' onmouseover="invertGithub()" onmouseout="invertGithub2()">
+              <div class='pull-left github-black'></div>
+              <div class='pull-left github-white'></div>
+              <span class ='img-btn'>Github</span>
+            </button>
+          </a>
+         
+          <a href="https://www.linkedin.com/in/josephmelnick1" target="_blank" class='black-hover'>
+            <button class='btn' onmouseover="invertLinked()" onmouseout="invertLinked2()">
+              <div class='pull-left linked-black'></div>
+              <div class='pull-left linked-white'></div>
+              <span class ='img-btn'>LinkedIn</span>
+            </button>
+          </a>
+         
+          <a href="mailto:jmelnick86@gmail.com" target="_top" class='black-hover' onmouseover="invertEmail()" onmouseout="invertEmail2()">
+            <button class='btn'>
+              <div class='pull-left email-black'></div>
+              <div class='pull-left email-white'></div>
+              <span class ='img-btn'>eMail</span>
+            </button>
+          </a>
+        </div>
+      </div><!--ends buttons -->
+  </div><!-- ends hero area -->
+  
+     
+    <!-- the next section starts here -->
+      <div class='about-me'>
+      <a name ='about'></a>
+      <div class = 'row'>
+        <div  class = 'col-sm-6'>
+          <h1>About Me</h1>
+          <!--Paragraph about me -->
+          <div class='easy-read'>
+            <p> I'm a self taught web designer and developer that is based in Boston, MA. I began to build an interest in computers at a young age of 10, attending a computer camp where I built my first website using HTML. It was basic and although I tinkered with HTML all through my childhood I never seriously persued it.</p>
+         
+            <p> After graduating college I was fundraising for non-profits. But I was frustrated in how slow many non-profits were to adopt new technologies. I started to delve into different tech skills and learn more about email marketing. I began by re-teaching myself HTML and was instantly hooked. I quickly took up learning JavaScript and never looked back. Since then I have worked on many small projects that you can see below. </p>
+            <p>
+            <b>Languages and Frameworks:</b> </br>
+            Javascript, HTML5, CSS3, jQuery, Bootstrap3. </br>
+            <b>Tools & expertise:</b></br>
+            Git, Responsive Web Design.</p>
+          </div>
+        </div>
+        <!--Picture of me -->
+        <div  class = 'col-sm-6 hidden-xs text-center'>
+          <img src = 'http://res.cloudinary.com/dh82iies5/image/upload/v1456241045/profilepiccropp_c4kifu.png' class = 'img-circle selfie'>
+        </div>
+      </div>
+      </div>
+
+    <!-- Start of Portfolio section-->
+      <div class='portfolio'>
+      <a name ='portfolio'></a>
+      
+      <div class='row text-center'>
+        <h1> Portfolio Projects </h1>
+        <h3> These are some of my projects</h3>
+      </div>
+     
+      <!-- Setup for portfolio pictures to be entered -->
+      <div class='row-centered portfolio-row'>
+        <a href='http://codepen.io/jmelnick86/full/bpeVpv/' target='_blank' class='portfolio-link'>
+        <div class='portfolio-ex col-centered'>
+          <div class='inner-portfolio quote-generator center-block'>
+            <div class='overlay'><img src='http://res.cloudinary.com/dh82iies5/image/upload/v1456770348/whitefcc_big_bpeuvr.png' height='70px' width='60px'></div>
+          </div>
+          <div class='portfolio-title center-block'>
+            <span class='portfolio-text'>Random Quote Generator</span>
+            <span class='second-portfolio-text'>JavaScript, API, JSON, Jquery</span>
+          </div></a>
+        </div>
+        
+        <div class='portfolio-ex col-centered'>
+          <div class='inner-portfolio center-block'>
+            <div class='overlay'><img src='http://res.cloudinary.com/dh82iies5/image/upload/v1456770348/whitefcc_big_bpeuvr.png' height='70px' width='60px'></div>
+          </div>
+          <div class='portfolio-title center-block'>
+            <span class='portfolio-text'> Coming Soon</span>
+            <span class='second-portfolio-text'>TBD</span>
+          </div>
+        </div>
+        
+        <div class='portfolio-ex col-centered'>
+          <div class='inner-portfolio center-block'>
+             <div class='overlay'><img src='http://res.cloudinary.com/dh82iies5/image/upload/v1456770348/whitefcc_big_bpeuvr.png' height='70px' width='60px'>
+             </div>
+          </div>
+          <div class='portfolio-title center-block'>
+            <span class='portfolio-text'> Coming Soon</span>
+            <span class='second-portfolio-text'>TBD</span>
+          </div>
+        </div>
+
+        <div class='portfolio-ex col-centered'>
+          <div class='inner-portfolio center-block'>
+            <div class='overlay'><img src='http://res.cloudinary.com/dh82iies5/image/upload/v1456770348/whitefcc_big_bpeuvr.png' height='70px' width='60px'></div>
+          </div>
+          <div class='portfolio-title center-block'>
+            <span class='portfolio-text'> Coming Soon</span>
+            <span class='second-portfolio-text'>TBD</span>
+          </div>
+        </div>
+        
+        <div class='portfolio-ex col-centered'>
+          <div class='inner-portfolio center-block'>
+            <div class='overlay'><img src='http://res.cloudinary.com/dh82iies5/image/upload/v1456770348/whitefcc_big_bpeuvr.png' height='70px' width='60px'></div>
+          </div>
+          <div class='portfolio-title center-block'>
+            <span class='portfolio-text'> Coming Soon</span>
+            <span class='second-portfolio-text'>TBD</span>
+          </div>
+        </div>
+        
+        <div class='portfolio-ex col-centered'>
+          <div class='inner-portfolio center-block'>
+            <div class='overlay'><img src='http://res.cloudinary.com/dh82iies5/image/upload/v1456770348/whitefcc_big_bpeuvr.png' height='70px' width='60px'>
+            </div>
+          </div>
+          <div class='portfolio-title center-block'>
+            <span class='portfolio-text'> Coming Soon</span>
+            <span class='second-portfolio-text'>TBD</span>
+          </div>
+        </div>
+        </div>
+     <!-- start of the contact me section -->
+        <div class='contact-me'>
+          <a name='contact'></a>
+          
+          <div class='row contact-row row-centered'>
+            <div class='col-sm-7 contact-details'>
+              <h2>
+                Contact me at <a href="mailto:jmelnick86@gmail.com" target="_top" class='contact-link'>jmelnick86@gmail.com</a>
+              </h2>
+            </div>
+            
+            <div class ='col-xs-2 verticle-btn '>
+              <a href="https://twitter.com/jmelnick86" class='black-hover'>
+                <button class='btn btn-custom' onmouseover="invertTwitter()" onmouseout="invertTwitter2()">
+                  <div class='pull-left twitter-black'></div>
+                  <div class='pull-left twitter-white'></div>
+                  <span class ='img-btn'>Twitter</span>
+                </button>
+              </a>
+       
+              <a href="" class='black-hover'>
+                <button class='btn' onmouseover="invertGithub()" onmouseout="invertGithub2()">
+                  <div class='pull-left github-black'></div>
+                  <div class='pull-left github-white'></div>
+                  <span class ='img-btn'>Github</span>
+                </button>
+              </a>
+           
+              <a href="https://www.linkedin.com/in/josephmelnick1" target="_blank" class='black-hover'>
+                <button class='btn' onmouseover="invertLinked()" onmouseout="invertLinked2()">
+                <div class='pull-left linked-black'></div>
+                <div class='pull-left linked-white'></div>
+                <span class ='img-btn'>LinkedIn</span>
+                </button>
+              </a>
+              <a href="mailto:jmelnick86@gmail.com" target="_top" class='black-hover' onmouseover="invertEmail()" onmouseout="invertEmail2()">
+            <button class='btn'>
+              <div class='pull-left email-black'></div>
+              <div class='pull-left email-white'></div>
+              <span class ='img-btn'>eMail</span>
+            </button>
+          </a>
+            </div>
+                
+          </div>
+        </div>
+      </div>
+    </div>
+</div> 
+        <!-- Start of the footer --> 
+    <footer>
+      <ul class='footer-nav'>
+        <li class="footer-item">
+          <a class="footer-link" href="#home">Home</a>
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="#about">About</a>
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <p class='footer-text'>Created by Joey Melnick. All rights reserved.</p>
+    </footer>
+  </div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
