@@ -27,6 +27,7 @@
   padding: 0px;
 }
 
+
 /* Button styling */
 .btn{
   border: solid black 2px;
@@ -271,6 +272,9 @@ color: #212121;
     width: 100%;
   }
   
+  a.portfolio-link{
+    text-decoration: none;
+  }
 
 
 .quote-generator{
@@ -290,7 +294,8 @@ color: #212121;
    background-color:rgba(0,0,0,.7);
   height: 85px;
   width: 400px;
-}
+  }
+
 
 .portfolio-text{
   display: block;
