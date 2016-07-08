@@ -1,353 +1,180 @@
-<!DOCTYPE html>
-<html >
-  <head>
-    <meta charset="UTF-8">
-    <title>Joey Melnick - Web Developer and Designer</title>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <title>Joey Melnick Portfolio Page</title>
+        <meta name="description" content="Joey Melnick portfolio page">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet' type='text/css'>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="stylesheet" href="css/normalize.css">
-
-    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
-
-        <link rel="stylesheet" href="css/style.css">
-
-    
-    
-    
-  </head>
-
-  <body>
-
-      <div class="container-fluid">
-   
-   <!--Nav bar coding starts here-->
-    <nav class = 'navbar navbar-fixed-top'>
-      <div class='navbar-header pull-left'>
-        <ul class = 'nav navbar-nav bigger'>
-          <li class = 'nav-item'><a href='#' class='nav-link'>Joey Melnick</a></li>
-        </ul>
-      </div>
-
-      
-      <div class='row pull-right'>
-      
-      <!-- Code for larger screens navbar -->   
-        <ul class="nav navbar-nav hidden-xs">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-        
-        <!-- code for mobile navbar --> 
-        <ul class="nav visible-xs">
-          <li role="presentation" class="dropdown pull-right">
-            <a class="dropdown-toggle dropdown-btn" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-              <button>&#9776;</button>
-            </a>
-            <ul class="dropdown-menu">
-              <li class="nav-item bigger-nav">
-                <a class="nav-link" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li> 
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </nav>
-     <div class='background'>
-     <!-- This is where the main/hero page lives -->
-      <div class='row hero-unit'>
-      <a name ='home'></a>
-      <div class='row title'>
-        <h1>Joey Melnick</h1>
-        <p>HTML, CSS, JavaScript and More</p>
-      </div>
-
-      <hr>
-      <div class='buttons row'>         
-      <!-- Buttons for mobile -->
-      
-        <div class='visible-xs text-center'>
-          <button class='btn' onmouseover="invertTwitter()" onmouseout="invertTwitter2()">
-            <a href="https://twitter.com/jmelnick86" target="_blank" class='black-hover'>            
-              <div class='pull-left twitter-black'></div>
-              <div class='pull-left twitter-white'></div>
-              <span class ='img-btn'>Twitter</span>
-            </a>
-          </button>
-        </div>
-        
-        <div class='visible-xs text-center'>
-          <a href="https://github.com/joeymelnick" target="_blank" class='black-hover'>
-            <button class='btn' onmouseover="invertGithub()" onmouseout="invertGithub2()">
-              <div class='pull-left github-black'></div>
-              <div class='pull-left github-white'></div>
-              <span class ='img-btn'>Github</span>
-            </button>
-          </a>
-        </div>
-
-        <div class='visible-xs text-center'>
-          <a href="https://www.linkedin.com/in/josephmelnick1" target="_blank" class='black-hover'>
-            <button class='btn' onmouseover="invertLinked()" onmouseout="invertLinked2()">
-              <div class='pull-left linked-black'></div>
-              <div class='pull-left linked-white'></div>
-              <span class ='img-btn'>LinkedIn</span>
-            </button>
-          </a>
-        </div>
-  
-        <div class='visible-xs text-center'>
-          <a href="mailto:jmelnick86@gmail.com" target="_top" class='black-hover' onmouseover="invertEmail()" onmouseout="invertEmail2()">
-            <button class='btn'>
-              <div class='pull-left email-black'></div>
-              <div class='pull-left email-white'></div>
-              <span class ='img-btn'>eMail</span>
-            </button>
-          </a>
-        </div>
-
-      <!-- non-mobile button set -->
-        <div class='visible-sm visible-md visible-lg text-center'>
-          
-          <a href="https://twitter.com/jmelnick86" target="_blank" class='black-hover'>
-            <button class='btn' onmouseover="invertTwitter()" onmouseout="invertTwitter2()">
-              <div class='pull-left twitter-black'></div>
-              <div class='pull-left twitter-white'></div>
-              <span class ='img-btn'>Twitter</span>
-            </button>
-          </a>
-     
-          <a href="https://github.com/joeymelnick" target="_blank" class='black-hover'>
-            <button class='btn' onmouseover="invertGithub()" onmouseout="invertGithub2()">
-              <div class='pull-left github-black'></div>
-              <div class='pull-left github-white'></div>
-              <span class ='img-btn'>Github</span>
-            </button>
-          </a>
-         
-          <a href="https://www.linkedin.com/in/josephmelnick1" target="_blank" class='black-hover'>
-            <button class='btn' onmouseover="invertLinked()" onmouseout="invertLinked2()">
-              <div class='pull-left linked-black'></div>
-              <div class='pull-left linked-white'></div>
-              <span class ='img-btn'>LinkedIn</span>
-            </button>
-          </a>
-         
-          <a href="mailto:jmelnick86@gmail.com" target="_top" class='black-hover' onmouseover="invertEmail()" onmouseout="invertEmail2()">
-            <button class='btn'>
-              <div class='pull-left email-black'></div>
-              <div class='pull-left email-white'></div>
-              <span class ='img-btn'>eMail</span>
-            </button>
-          </a>
-        </div>
-      </div><!--ends buttons -->
-  </div><!-- ends hero area -->
-  
-     
-    <!-- the next section starts here -->
-      <div class='about-me'>
-      <a name ='about'></a>
-      <div class = 'row'>
-        <div  class = 'col-sm-6'>
-          <h1>About Me</h1>
-          <!--Paragraph about me -->
-          <div class='easy-read'>
-            <p>I'm a self taught web designer and developer based in Boston, MA. I began to build an interest in computers at a young age of ten, attending a computer camp where I built my first website using HTML. It was basic, and although I tinkered with HTML all through my childhood, I never seriously pursued it until more recently. </p>
-
-            <p>After graduating college, I worked in fundraising for nonprofits. However, I became frustrated in how slow many nonprofits were to adopt new technologies. I then started to delve into different tech skills and learn more about email marketing. I began my journey into back into tech by re-teaching myself HTML and was instantly hooked. I quickly took up learning JavaScript and never looked back. Since then, I have worked on many small projects that you can see below. I am excited to pursue a career in web design and ultimately hope to integrate new technologies into nonprofits or other companies to improve life for people.</p>
-            <p>
-            <b>Languages and Frameworks:</b> <br />
-            Javascript, HTML5, CSS3, jQuery, Bootstrap3. <br />
-            <b>Tools & expertise:</b><br />
-            Git, Responsive Web Design.</p>
-          </div>
-        </div>
-        <!--Picture of me -->
-        <div  class = 'col-sm-6 hidden-xs text-center'>
-          <img src = 'http://res.cloudinary.com/dh82iies5/image/upload/v1456241045/profilepiccropp_c4kifu.png' class = 'img-circle selfie' alt="Selfie of Joey">
-        </div>
-      </div>
-      </div>
-
-    <!-- Start of Portfolio section-->
-      <div class='portfolio'>
-      <a name ='portfolio'></a>
-      
-      <div class='row text-center'>
-        <h1> Portfolio Projects </h1>
-        <h3> These are some of my projects</h3>
-      </div>
-     
-      <!-- Setup for portfolio pictures to be entered -->
-      <div class='row-centered portfolio-row'> 
-        <a href='http://joeymelnick.github.io/randomQuoteGenerator' target='_blank' class='portfolio-link'>
-          <div class='portfolio-ex col-centered'>
-            <div class='inner-portfolio quote-generator center-block'>
-              <div class='overlay'><img src='http://res.cloudinary.com/dh82iies5/image/upload/v1456770348/whitefcc_big_bpeuvr.png' height='70px' width='60px' alt='image overlay'></div>
-              </div>
-            <div class='portfolio-title center-block'>
-              <span class='portfolio-text'>Random Quote Generator</span>
-              <span class='second-portfolio-text'>JavaScript, API, JSON, Jquery</span>
-            </div>
-          </div>
-          </a>
-        
-        
-        <div class='portfolio-ex col-centered'>
-          <a href='http://joeymelnick.github.io/blog' target='_blank' class='portfolio-link'>
-          <div class='inner-portfolio center-block'>
-            <div class='overlay'><img src='http://res.cloudinary.com/dh82iies5/image/upload/v1456770348/whitefcc_big_bpeuvr.png' height='70px' width='60px'></div>
-          </div>
-          <div class='portfolio-title center-block'>
-            <span class='portfolio-text'> Blog Page for SI</span>
-            <span class='second-portfolio-text'>HTML</span>
-          </div>
-        </div>
-          </a>
-        
-        <div class='portfolio-ex col-centered'>
-          <a href='http://joeymelnick.github.io/coffee' target='_blank' class='portfolio-link'>
-          <div class='inner-portfolio center-block'>
-             <div class='overlay'><img src='http://res.cloudinary.com/dh82iies5/image/upload/v1456770348/whitefcc_big_bpeuvr.png' height='70px' width='60px'>
-             </div>
-          </div>
-          <div class='portfolio-title center-block'>
-            <span class='portfolio-text'> Coffee Page for SI</span>
-            <span class='second-portfolio-text'>HTML</span>
-          </div>
-        </div>
-      </a>
-
-        <div class='portfolio-ex col-centered'>
-          <div class='inner-portfolio center-block'>
-            <div class='overlay'><img src='http://res.cloudinary.com/dh82iies5/image/upload/v1456770348/whitefcc_big_bpeuvr.png' height='70px' width='60px'></div>
-          </div>
-          <div class='portfolio-title center-block'>
-            <span class='portfolio-text'> Coming Soon</span>
-            <span class='second-portfolio-text'>TBD</span>
-          </div>
-        </div>
-        
-        <div class='portfolio-ex col-centered'>
-          <div class='inner-portfolio center-block'>
-            <div class='overlay'><img src='http://res.cloudinary.com/dh82iies5/image/upload/v1456770348/whitefcc_big_bpeuvr.png' height='70px' width='60px'></div>
-          </div>
-          <div class='portfolio-title center-block'>
-            <span class='portfolio-text'> Coming Soon</span>
-            <span class='second-portfolio-text'>TBD</span>
-          </div>
-        </div>
-        
-        <div class='portfolio-ex col-centered'>
-          <div class='inner-portfolio center-block'>
-            <div class='overlay'><img src='http://res.cloudinary.com/dh82iies5/image/upload/v1456770348/whitefcc_big_bpeuvr.png' height='70px' width='60px'>
-            </div>
-          </div>
-          <div class='portfolio-title center-block'>
-            <span class='portfolio-text'> Coming Soon</span>
-            <span class='second-portfolio-text'>TBD</span>
-          </div>
-        </div>
-        </div>
-     <!-- start of the contact me section -->
-        <div class='contact-me'>
-          <a name='contact'></a>
-          
-          <div class='row contact-row row-centered'>
-            <div class='col-sm-7 contact-details'>
-              <h2>
-                <a href="mailto:jmelnick86@gmail.com" target="_top" class='contact-link'>Contact me</a> 
-              </h2>
-            </div>
-            
-            <div class ='col-xs-2 verticle-btn '>
-              <a href="https://twitter.com/jmelnick86" class='black-hover' target='_blank'>
-                <button class='btn btn-custom' onmouseover="invertTwitter()" onmouseout="invertTwitter2()">
-                  <div class='pull-left twitter-black'></div>
-                  <div class='pull-left twitter-white'></div>
-                  <span class ='img-btn'>Twitter</span>
-                </button>
-              </a>
+        <!-- Place favicon.ico in the root directory -->
        
-              <a href="https://github.com/joeymelnick" class='black-hover'  target='_blank'>
-                <button class='btn' onmouseover="invertGithub()" onmouseout="invertGithub2()">
-                  <div class='pull-left github-black'></div>
-                  <div class='pull-left github-white'></div>
-                  <span class ='img-btn'>Github</span>
-                </button>
-              </a>
-           
-              <a href="https://www.linkedin.com/in/josephmelnick1" target="_blank" class='black-hover'>
-                <button class='btn' onmouseover="invertLinked()" onmouseout="invertLinked2()">
-                <div class='pull-left linked-black'></div>
-                <div class='pull-left linked-white'></div>
-                <span class ='img-btn'>LinkedIn</span>
-                </button>
-              </a>
-              <a href="mailto:jmelnick86@gmail.com" target="_top" class='black-hover' onmouseover="invertEmail()" onmouseout="invertEmail2()">
-            <button class='btn'>
-              <div class='pull-left email-black'></div>
-              <div class='pull-left email-white'></div>
-              <span class ='img-btn'>eMail</span>
-            </button>
-          </a>
+        <link rel="stylesheet" href="css/initialize.css">
+        <link rel="stylesheet" type="text/css" href="css/grid.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="https://use.fontawesome.com/a699f27e3f.js"></script>
+      
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+       
+        <div class='container-fluid'>
+            <!-- ******************** Hero/Title ************** --> 
+            <div class='hero-screen'>
+                <div class='black-overlay'>
+                    <div class='wrapper'>
+                        <div class='centered-stuff'>
+                            <div class='row'>
+                                <div class='column title'>
+                                    <h1 class="hero">Joey Melnick</h1> 
+                                </div>
+                            </div>
+                            <!-- ******************** Tagline ************** --> 
+                            <div class='row tagline-container'>
+                                <p class='tagline'>Self taught front-end web developer with a passion for learning, problem solving, and bikes</p> 
+                            </div>
+                         
+
+                        <!-- ********************Buttons!******************** --> 
+                            <div class='row'>
+                                <div class='button-column'>
+                                    <div class='border'><a href='#portfolio'><button class='custom-button view-button'> VIEW WORK</button></a>
+                                    </div>
+                                    <div class='border'>
+                                        <a href="#about-me"><button class='custom-button about-button'> ABOUT ME </button></a> 
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>            
+                <!-- ******************** Footer! ******************** -->
+                    <footer class='row'>
+                        <h5 class='footer'>GET  IN  TOUCH</h5> 
+                        <a href='https://www.linkedin.com/in/joeymelnick' target='_blank'><i class="fa fa-3x fa-linkedin-square social-icon" aria-hidden="true"></i></a>
+                        <a href='https://github.com/joeymelnick' target='_blank'><i class="fa fa-3x fa-github-square social-icon" aria-hidden="true"></i></a>
+                        <a href='#'><img src='images/bikebw.png' class='social-icon'></a>
+                        <a href='mailto:jmelnick86@gmail.com?Subject=Your%20portfolio'><i class="fa fa-3x fa-envelope-square social-icon" aria-hidden="true"></i></a>
+                    </footer>
+
+                <!-- ******************** Verticle Text ******************** --> 
+                <!-- <div class='verticle-text'>
+                    <h3> Created by Joey Melnick</h3>
+                </div> -->
+                </div>
             </div>
-                
-          </div>
-        </div>
-      </div>
-    </div>
-</div> 
-        <!-- Start of the footer --> 
-    <footer>
-      <ul class='footer-nav'>
-        <li class="footer-item">
-          <a class="footer-link" href="#home">Home</a>
-        </li>
-        <li class="footer-item">
-          <a class="footer-link" href="#about">About</a>
-        </li>
-        <li class="footer-item">
-          <a class="footer-link" href="#portfolio">Portfolio</a>
-        </li>
-        <li class="footer-item">
-          <a class="footer-link" href="#contact">Contact</a>
-        </li>
-      </ul>
-      <p class='footer-text'>Created by Joey Melnick. All rights reserved.</p>
-    </footer>
-  
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+            <!-- ************* Portfolio Section ***************** -->
+            <div id='portfolio'>
+                <div class='section-title'>
+                    <h2>Examples of my work</h2>
+                </div>
+                <div class='portfolio-wrapper'>
+                    <div class='row portfolio-row'>
+                        <a href="http://joeymelnick.github.io/randomQuoteGenerator"><div class='column large-one-third medium-one-half portfolio-padding'>
+                            <div class='portfolio-desc-box hvr-underline-from-left'>
+                                <h3>Random Quote Generator</h3>
+                                <hr class='portfolio-line'>
+                                <div class='portfolio-info'>
+                                    <ul class='portfolio-list'>
+                                        <li>S: HTML, CSS, JavaScript, APIs, JSON</li>
+                                        <li>P: Pulls a random quote from a database using an API on button click.</li>
+                                    </ul>    
+                                </div> 
+                            </div>  
+                        </div></a>
+                        <div class='column large-one-third medium-one-half portfolio-padding'>
+                            <div class='portfolio-desc-box hvr-underline-from-left'>
+                                <h3>Example Portfolio Piece</h3>
+                                <hr class='portfolio-line'>
+                                <div class='portfolio-info'>
+                                    <ul class='portfolio-list'>
+                                        <li>Y. 2016</li>
+                                        <li>S. HTML, CSS, JavaScript</li>
+                                        <li>P. Practice implementing API's</li>
+                                    </ul>    
+                                </div> 
+                            </div>
+                        </div>
+                        <div class='column large-one-third medium-one-half portfolio-padding'>
+                            <div class='portfolio-desc-box hvr-underline-from-left'>
+                                <h3>Example Portfolio Piece</h3>
+                                <hr class='portfolio-line'>
+                                <div class='portfolio-info'>
+                                    <ul class='portfolio-list'>
+                                        <li>Y. 2016</li>
+                                        <li>S. HTML, CSS, JavaScript</li>
+                                        <li>P. Practice implementing API's</li>
+                                    </ul>    
+                                </div> 
+                            </div>
+                        </div>
+                        <div class='column large-one-third medium-one-half portfolio-padding'>
+                            <div class='portfolio-desc-box hvr-underline-from-left'>
+                                <h3>Example Portfolio Piece</h3>
+                                <hr class='portfolio-line'>
+                                <div class='portfolio-info'>
+                                    <ul class='portfolio-list'>
+                                        <li>Y. 2016</li>
+                                        <li>S. HTML, CSS, JavaScript</li>
+                                        <li>P. Practice implementing API's</li>
+                                    </ul>    
+                                </div> 
+                            </div>
+                        </div>
+                        <div class='column large-one-third medium-one-half portfolio-padding'>
+                            <div class='portfolio-desc-box hvr-underline-from-left'>
+                                <h3>Example Portfolio Piece</h3>
+                                <hr class='portfolio-line'>
+                                <div class='portfolio-info'>
+                                    <ul class='portfolio-list'>
+                                        <li>Y. 2016</li>
+                                        <li>S. HTML, CSS, JavaScript</li>
+                                        <li>P. Practice implementing API's</li>
+                                    </ul>    
+                                </div> 
+                            </div>
+                        </div>
+                        <div class='column large-one-third medium-one-half portfolio-padding'>
+                            <div class='portfolio-desc-box hvr-underline-from-left'>
+                                <h3>Example Portfolio Piece</h3>
+                                <hr class='portfolio-line'>
+                                <div class='portfolio-info'>
+                                    <ul class='portfolio-list'>
+                                        <li>Y. 2016</li>
+                                        <li>S. HTML, CSS, JavaScript</li>
+                                        <li>P. Practice implementing API's</li>
+                                    </ul>    
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>       
+            </div>
+            <!-- *********** Start About Me ************** -->
+            <div id='about-me'>
+                <div class='section-title'>
+                    <h2>About Me</h2>
+                </div>
+                <div class='about-me-content'>
+                    <div class='about-me-text column large-one-half'>
+                        <p>I want to save the world. OK, maybe that's a bit much. But, I do want my time to be spent making things better.</p>
 
-        <script src="js/index.js"></script>
+                        <p>While working in non-profits, I applied for an email marketing position that required basic HTML for an interview. Before the interview, I sat down on the couch to teach myself and time traveled 5 hours - I was hooked. I took up learning JavaScript and never looked back.</p>
 
-    
-    
-    
-  </body>
+                        <p>Since then, I have worked on many small projects to improve my skills and am excited to pursue a career in web development. Ultimately, I hope to integrate new technologies into nonprofits or other companies to help improve peoples' lives.</p>
+                    </div>
+                    <div class='about-me-img-wrapper column large-one-half'>
+                        <div class='about-me-img'>
+                            <img class='self-photo' src="images/mesmaller.jpg" alt='my photo'>
+                        </div>
+                    </div>
+                </div>
+                    <div class='social-links'>
+                    <a href='https://www.linkedin.com/in/joeymelnick'><i class="fa fa-3x fa-linkedin-square social" aria-hidden="true"></i></a>
+                    <a href='http://github.com/joeymelnick'><i class="fa fa-3x fa-github-square social" aria-hidden="true"></i></a>
+                    <a href='mailto:jmelnick86@gmail.com?Subject=Your%20portfolio'><i class="fa fa-3x fa-envelope-square social" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>    
+             <script src="js/index.js"></script>   
+    </body>
 </html>

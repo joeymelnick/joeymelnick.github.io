@@ -1,35 +1,28 @@
-function invertTwitter(){
-  $('.twitter-black').css('display', 'none');
-  $('.twitter-white').css('display', 'block')
+ var icons = document.getElementsByClassName('social-icon');
+
+ 
+var footer = document.getElementsByClassName('footer')
+var openOrClose = 'open';	
+
+
+
+footer[0].onclick = function(){
+if (openOrClose === 'open'){
+	for(i=0; i < icons.length; i++){
+		var socialId = "social-move" + (i+1);
+  icons[i].setAttribute('id', socialId);
 }
-function invertTwitter2(){
-   $('.twitter-black').css('display', 'block');
-  $('.twitter-white').css('display', 'none')
+  openOrClose = 'close'
 }
 
-function invertGithub(){
-  $('.github-black').css('display', 'none');
-  $('.github-white').css('display', 'block')
+else {
+	for(i=0; i < icons.length; i++){
+	
+  icons[i].setAttribute('id', '');
 }
-function invertGithub2(){
-   $('.github-black').css('display', 'block');
-  $('.github-white').css('display', 'none')
-}
-
-function invertLinked(){
-  $('.linked-black').css('display', 'none');
-  $('.linked-white').css('display', 'block')
-}
-function invertLinked2(){
-   $('.linked-black').css('display', 'block');
-  $('.linked-white').css('display', 'none')
+	openOrClose = 'open';
 }
 
-function invertEmail(){
-  $('.email-black').css('display', 'none');
-  $('.email-white').css('display', 'block')
-}
-function invertEmail2(){
-   $('.email-black').css('display', 'block');
-  $('.email-white').css('display', 'none')
-}
+ 
+};
+
