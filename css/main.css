@@ -119,6 +119,7 @@ font-family: 'Raleway', sans-serif;
 	}
 
 	.tagline{
+		font-size: 30px;
 		font-size: 4vw;
 		font-weight: 200;
 		margin-bottom: 30px;
