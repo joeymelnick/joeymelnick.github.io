@@ -11,9 +11,6 @@ html, body {
 	height: 100%;
 
 }
-h1, h2, h3, h4{ 
-font-family: 'Open Sans', sans-serif;
-}
 
 body {
 /*color: #dccaa8;*/
@@ -21,6 +18,12 @@ color: white;
 background-color: #161616;
 font-family: 'Lora', serif;
 }
+
+h1, h2, h3, h4, h5, h6{ 
+font-family: 'Open Sans', sans-serif;
+}
+
+
 
 .wrapper{
 	position: relative;
@@ -39,6 +42,21 @@ font-family: 'Lora', serif;
 	padding-bottom: 20px;
 	opacity: .4;
 
+}
+
+/*Title styling*/
+
+.section-title{
+	text-align: center;
+	padding-top: 1.2em;
+	padding-bottom: .2em;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1.5px;
+}
+
+.section-title h2{
+	margin-bottom: 0px;
+		font-size: 1.8em;
 }
 
 
@@ -137,7 +155,7 @@ font-family: 'Open Sans', sans-serif;
 	}
 
 
-	@media (min-width: 1024px) {
+	@media (min-width: 1020px) {
 	
 .hero{
 	font-size: 95px;
@@ -215,7 +233,7 @@ box-shadow: inset 0 100px 0 0 #9B8150;
 }
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1020px){
 	.custom-button{
 		padding: 15px 26px 15px 26px;
 		font-size: 14px;
@@ -270,7 +288,7 @@ footer:hover{
 }
 	}
 
-@media (min-width: 1024px){
+@media (min-width: 1020px){
 	.footer{
 		font-size: 14px;
 	}
@@ -401,48 +419,44 @@ transform:  translateX(-250px);
 .portfolio-wrapper{
 height: 100%;
 	}
-.portfolio-row{
-height: 100vh;
-}
-
-.section-title{
-	text-align: center;
-	padding-top: 1.2em;
-	padding-bottom: .2em;
-	font-family: 'Open Sans', sans-serif;
-	letter-spacing: 1.5px;
-}
-
-.section-title h2{
-	margin-bottom: 0px;
-		font-size: 1.8em;
-}
 
 
 .portfolio-desc-box{
 background-color: #0d0d0d;
 display: block;
-float: none;
+/*float: none;*/
 width: 100%;
+color: white;
+min-height: 250px;
 }
 
 
 .portfolio-desc-box h3 {
 	font-size: 1.5em;
-	padding:1.5em 0 1em 1em;
+	padding: 30px 10px;
 	letter-spacing: 1px;
 	font-weight: normal;
+	height: 40%;
+	text-align: center;
 }
 
 .portfolio-line{
 	border-color: #dccaa8;
 	width: 8%;
+	height: 10%;
 
 }
+.portfolio-info{
+	padding: 10px;
+	height: 40%;
+
+}
+
 
 .portfolio-list{
 	list-style: none;
 	padding: 1.5em 0 1.5em 0;
+
 }
 
 .portfolio-list li {
@@ -460,28 +474,12 @@ color: #9B8150;
 
 }
 
-.portfolio-info{
-	padding-left: 1em;
-}
-
 
 .portfolio-desc-box:hover .portfolio-line{
 
 	width: 16%;
 	transition: all .5s .5s ease-out;
 	border-color: #9B8150;
-}
-
-.bottom-line{
-	height: 1px;
-	background-color: red;
-	border: 0;
-	width: 100%;
-
-}
-
-.portfolio-desc-box{
-	color: white;
 }
 
 @media (min-width: 750px){
@@ -493,32 +491,41 @@ color: #9B8150;
 .section-title h2{
 	font-size: 3em;
 }
+
+.portfolio-padding{
+	padding: 20px 120px;
+}
+
 .portfolio-desc-box{
 	display: inline-block;
 	text-align: left;
 	float: none;
 	color: white;
-	height: 350px;
-
-
+	min-height: 350px;
 }
+
 
 .portfolio-desc-box h3 {
 	font-size: 2em;
 }
 
-.portfolio-padding{
-	padding: 20px 30px;
+.portfolio-info{
+	padding: 20px 10px 10px 10px;
 }
 
 .portfolio-list{
 	font-size: 1.5em;
-	padding: .6em;
-	margin-right: 5px;
+
 }
 
 }
-@media (min-width: 1024px){
+
+@media (min-width: 1020px){
+.portfolio-wrapper{
+	padding: 0 40px;
+	padding-bottom: 50px;
+}
+
 .section-title{
 	padding-top: .6em;
 	padding-bottom: .2em;
@@ -528,38 +535,38 @@ color: #9B8150;
 	font-size: 2.8em;
 }
 
-.portfolio-wrapper{
-	padding: 0 40px;
-	padding-bottom: 50px;
-}
 .portfolio-padding{
-	padding: 40px;
+	padding: 20px 100px;
 }
 .portfolio-desc-box{
-	height: 230px;
+	min-height: 300px;
 }
 .portfolio-desc-box h3 {
 	font-size: 1.5em;
-	padding: 1.5em 0 .5em 1em;
 	letter-spacing: 1px;
-	font-weight: normal;
+
 }
 
-.portfolio-list{
-	list-style: none;
-	padding: 1em 0 1em 0;
-	font-size: 1em;
-}
-
-.portfolio-list li {
-	font-weight: normal;
-	font-size: .8em;
-	letter-spacing: 1px;
+.portfolio-line{
+	height: 10%;
 }
 
 .portfolio-info{
 	padding-left: 1em;
+	height: 50%;
 }
+
+.portfolio-list{
+	list-style: none;
+	font-size: 1em;
+}
+
+.portfolio-list li {
+	font-size: .8em;
+	letter-spacing: 1px;
+}
+
+
 
 
 }
@@ -627,9 +634,13 @@ color: #9B8150;
 	font-size: 1em;
 }
 
+.fa-3x{
+	font-size: 5em;
+}
+
 	}
 
-@media (min-width: 1024px){
+@media (min-width: 1020px){
 	.self-photo{
 		display: inline-block;
 	}

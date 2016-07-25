@@ -18,59 +18,83 @@
         <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body>
-       
+
+    <body> 
         <div class='container-fluid'>
+
             <!-- ******************** Hero/Title ************** --> 
             <div class='hero-screen'>
                 <div class='black-overlay'>
                     <div class='wrapper'>
+
+                       <!--  Using this div to center my name and tagline -->
                         <div class='centered-stuff'>
                             <div class='row'>
                                 <div class='column title'>
                                     <h1 class="hero">Joey Melnick</h1> 
                                 </div>
                             </div>
+
                             <!-- ******************** Tagline ************** --> 
                             <div class='row tagline-container'>
                                 <p class='tagline'>Self taught front-end web developer with a passion for problem solving, learning, and bikes</p> 
-                            </div>
-                         
+                            </div>                        
 
                         <!-- ********************Buttons!******************** --> 
                             <div class='row'>
                                 <div class='button-column'>
-                                    <div><a href='#portfolio'><button class='custom-button view-button'> VIEW WORK</button></a>
+                                    <div>
+                                        <a href='#portfolio'><button class='custom-button view-button'> VIEW WORK</button></a>
                                     </div>
                                     <div>
                                         <a href="#about-me"><button class='custom-button about-button'> ABOUT ME </button></a> 
                                     </div>
-                                    </div>
                                 </div>
                             </div>
-                        </div>            
-                <!-- ******************** Footer! ******************** -->
+                        </div>
+                    </div>
+
+                <!-- ************** Footer (of the hero)! ************** -->
                     <footer class='row'>
                         <h5 class='footer'>GET  IN  TOUCH</h5> 
+                        <!-- These social media icons stay hidden until clicked -->
+
                         <a href='https://www.linkedin.com/in/joeymelnick' target='_blank'><i class="fa fa-3x fa-linkedin-square social-icon" aria-hidden="true"></i></a>
                         <a href='https://github.com/joeymelnick' target='_blank'><i class="fa fa-3x fa-github-square social-icon" aria-hidden="true"></i></a>
                         <a href='#'><img src='images/bikebw.png' class='social-icon'></a>
                         <a href='mailto:jmelnick86@gmail.com?Subject=Your%20portfolio'><i class="fa fa-3x fa-envelope-square social-icon" aria-hidden="true"></i></a>
                     </footer>
 
-                <!-- ******************** Verticle Text ******************** --> 
+                <!-- ******* Verticle Text Placeholder ***** --> 
                 <!-- <div class='verticle-text'>
                     <h3> Created by Joey Melnick</h3>
                 </div> -->
                 </div>
             </div>
+
             <!-- ************* Portfolio Section ***************** -->
             <div id='portfolio'>
                 <div class='section-title'>
-                    <h2>Examples of my work</h2>
+                    <h2>My work</h2>
                 </div>
                 <div class='portfolio-wrapper'>
-                        <a href="http://joeymelnick.github.io/randomQuoteGenerator" target='_blank'><div class='column large-one-third medium-one-half portfolio-padding'>
+                    <a href="https://joeymelnick.github.io/4kfootersite" target="_blank">
+                        <div class='column large-one-half portfolio-padding'>
+                            <div class='portfolio-desc-box hvr-underline-from-left'>
+                                <h3>4k Footer Tracking Site</h3>
+                                <hr class='portfolio-line'>
+                                <div class='portfolio-info'>
+                                    <ul class='portfolio-list'>
+                                        <li>Skills: HTML, CSS, JavaScript, JQuery, Angular</li>
+                                        <li> Project to track the 4k footers you have hiked in NH .</li>
+                                    </ul>    
+                                </div> 
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="http://joeymelnick.github.io/randomQuoteGenerator" target='_blank'>
+                        <div class='column large-one-half portfolio-padding'>
                             <div class='portfolio-desc-box hvr-underline-from-left'>
                                 <h3>Random Quote Generator</h3>
                                 <hr class='portfolio-line'>
@@ -81,20 +105,11 @@
                                     </ul>    
                                 </div> 
                             </div>  
-                        </div></a>
-                        <a href="https://joeymelnick.github.io/4kfootersite" target="_blank"><div class='column large-one-third medium-one-half portfolio-padding'>
-                            <div class='portfolio-desc-box hvr-underline-from-left'>
-                                <h3>4k Footer Tracking Site</h3>
-                                <hr class='portfolio-line'>
-                                <div class='portfolio-info'>
-                                    <ul class='portfolio-list'>
-                                        <li>Skills: HTML, CSS, JavaScript, JQuery</li>
-                                        <li> An early site I created to track mountains that you have hiked.</li>
-                                    </ul>    
-                                </div> 
-                            </div>
-                        </div></a>
-                         <a href="https://github.com/joeymelnick/algorithms" target='_blank'><div class='column large-one-third medium-one-half portfolio-padding'>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/joeymelnick/algorithms" target='_blank'>
+                        <div class='column large-one-half portfolio-padding'>
                             <div class='portfolio-desc-box hvr-underline-from-left'>
                                 <h3>Algorithm Challenges</h3>
                                 <hr class='portfolio-line'>
@@ -105,63 +120,39 @@
                                     </ul>    
                                 </div> 
                             </div>
-                        </a></div>
-                        <div class='column large-one-third medium-one-half portfolio-padding'>
+                        </div>
+
+                    <a href='https://joeymelnick.github.io/oddsandends' target='_blank'>
+                        <div class='column large-one-half portfolio-padding'>
                             <div class='portfolio-desc-box hvr-underline-from-left'>
-                                <h3>Resilient Coders Idea Hack</h3>
+                                <h3>Waylens Support Portal</h3>
                                 <hr class='portfolio-line'>
                                 <div class='portfolio-info'>
                                     <ul class='portfolio-list'>
-                                        <li>Skills: UX, Workflow, and Prototyping</li>
-                                        <li>Coming soon...</li>
+                                        <li>Skills: HTML, CSS, JavaScript, Wordpress</li>
+                                        <li>Coming soon</li>
                                     </ul>    
                                 </div> 
                             </div>
                         </div>
-                        <div class='column large-one-third medium-one-half portfolio-padding'>
-                            <div class='portfolio-desc-box hvr-underline-from-left'>
-                                <h3>Restaurant Webpage</h3>
-                                <hr class='portfolio-line'>
-                                <div class='portfolio-info'>
-                                    <ul class='portfolio-list'>
-                                        <li>Skills: HTML, CSS, JavaScript</li>
-                                        <li>Coming soon...</li>
-                                    </ul>    
-                                </div> 
-                            </div>
-                        </div>
-                        <a href='https://joeymelnick.github.io/oddsandends' target='_blank'><div class='column large-one-third medium-one-half portfolio-padding'>
-                            <div class='portfolio-desc-box hvr-underline-from-left'>
-                                <h3>Odds and Ends Projects</h3>
-                                <hr class='portfolio-line'>
-                                <div class='portfolio-info'>
-                                    <ul class='portfolio-list'>
-                                        <li>Skills: HTML, CSS, JavaScript</li>
-                                        <li>Small projects that I have done over the past year.</li>
-                                    </ul>    
-                                </div> 
-                            </div>
-                        </div></a>
-                </div>       
-            </div>
+                    </a>
+                </div> 
+            </div>      
+
             <!-- *********** Start About Me ************** -->
-            <div id='about-me'>
-                    
+            <div id='about-me'>                  
                 <div class='section-title'>
                     <h2>About Me</h2>
                 </div>
                 <div class='border'>
-                        <img src='images/bikeborder.png'><img src='images/bikeborder.png'><img src='images/bikeborder.png'>
-                    </div>
+                    <img src='images/bikeborder.png'><img
+                     src='images/bikeborder.png'><img src='images/bikeborder.png'>
+                </div>
                 <div class='about-me-content'>
                     <div class='about-me-text column large-one-half'>
                         <p>I want to save the world. OK, maybe that's a bit much. But, I do want my time to be spent making things better.</p>
 
-                        <p>I'm a self taught web developer who used to be a non-profit fundraising professional. With a passion for solving problems and a love of tangible results I discovered that coding was incredibly fun. I focus on HTML, CSS, and JavaScript and dabled in Angular, Foundation, SASS and git. If you like my work, dont hesitate to get in touch below!</p>
-
-
-
-
+                        <p>I'm a self taught web developer who used to be a non-profit fundraising professional. With a passion for solving problems and a love of tangible results I discovered that coding was incredibly fun. I focus on HTML, CSS, and JavaScript and dabled in Angular, Foundation, SASS and git. If you like my work, dont hesitate to email me below!</p>
                     </div>
                     <div class='about-me-img-wrapper column large-one-half'>
                         <div class='about-me-img'>
@@ -170,18 +161,20 @@
                     </div>
                 </div>
             </div>
+
                 <!-- Footer ******* -->
-                    <div class='contact'>
-                        <div class='section-title'>
-                        <h2> Contact </h2>
-                        </div>
-                        <div class= 'social-links'>
-                        <a href='https://www.linkedin.com/in/joeymelnick'><i class="fa fa-3x fa-linkedin-square social" aria-hidden="true"></i></a>
-                        <a href='http://github.com/joeymelnick'><i class="fa fa-3x fa-github-square social" aria-hidden="true"></i></a>
-                        <a href='mailto:jmelnick86@gmail.com?Subject=Your%20portfolio'><i class="fa fa-3x fa-envelope-square social" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>    
-             <script src="js/index.js"></script>   
+            <div class='contact'>
+                <div class='section-title'>
+                    <h2> Contact </h2>
+                </div>
+                <div class= 'social-links'>
+                    <i class="fa fa-3x fa-envelope-square social" aria-hidden="true"></i></a>
+                    <a href='https://www.linkedin.com/in/joeymelnick'><i class="fa fa-3x fa-linkedin-square social" aria-hidden="true"></i></a>
+                    <a href='http://github.com/joeymelnick'><i class="fa fa-3x fa-github-square social" aria-hidden="true"></i></a>
+                    <a href='mailto:jmelnick86@gmail.com?Subject=Your%20portfolio'>
+                </div>
+            </div>
+        </div>    
+    <script src="js/index.js"></script>   
     </body>
 </html>
