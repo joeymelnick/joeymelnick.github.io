@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <title>My Random Quote Generator</title>
+        <meta name="description" content="Desctiption of 4 thousand footer project">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Place favicon.ico in the root directory -->
+       
+        <link rel="stylesheet" href="css/initialize.css">
+        <link rel="stylesheet" type="text/css" href="css/grid.css">
+        <link rel="stylesheet" href="css/main.css">
+      
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+
+    </head>
+
+    <body>
+        <div class='portfolio-page'>
+            <div class='section-title'>
+                <h2>Random Quote Generator</h2>
+            </div>
+            <div class='buttons'>
+            <a href='http://www.joeyjmelnick.com/randomQuoteGenerator' target='_blank'><span class='custom-button portfolio-button'>See the Site</span></a>
+            <a href='https://github.com/joeymelnick/randomQuoteGenerator' target='_blank'><span class='custom-button portfolio-button'>Github Link</span></a>
+            </div>
+                <div class='desc-row'>
+                <div class='images'>
+                    <img class='preview' src='images/quotes.png'>
+                </div>
+                <div class='description'>
+                    <p><strong>Skills: HTML, CSS, JavaScript, APIs, JQuery</strong></p>
+
+                    <p>I created this random quote generator as a way to teach myself how to use API calls and also some basic JavaScript. It changes colors on click as well as loads up a new quote.</p>
+
+                    <p>There is also some basic JavaScript to ensure that if you tweet a quote it limits the tweet to 140 characters. If its over 140 it will automatically add an elipse.</p>
+
+                </div>
+           </div>
+        </div>
+    </body>

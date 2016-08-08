@@ -765,6 +765,7 @@ color: #9B8150;
 	background-color: #363636;
 	height: 100%;
 	width: 100%;
+	min-height:100vh;
 }
 
 .portfolio-page .section-title{
@@ -780,7 +781,6 @@ color: #9B8150;
 }
 
 .portfolio-button{
-	margin: 0 150px;
 	cursor: pointer;
 }
 
@@ -789,7 +789,7 @@ color: #9B8150;
 }
 .images{
 	text-align: center;
-	width: 45%;
+	width: 100%;
 	margin-top: 50px;
 	display: inline-block;
 }
@@ -800,13 +800,32 @@ color: #9B8150;
 }
 
 .description{
-	width: 45%;
+	width: 100%;
 	display: inline-block;
 	float: right;
 	margin-top: 60px;
-	margin-right: 25px;
+	padding-left: 20px;
+
 }
 
 .description p{
 	padding-bottom: 15px;
+}
+
+@media (min-width: 750px){
+	.description{
+		width: 45%;
+		margin-right: 25px;
+	}
+
+	.images{
+		width: 45%;
+	}
+	.portfolio-button{
+		margin: 10px 150px;
+	}
+	}
+
+@media (min-width: 1020px){
+
 }
