@@ -1,13 +1,13 @@
 
 
  *{
- 	padding: 0;
- 	margin: 0;
- 	font-size: 16px;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
  }
 
 html, body {
-	width: 100%;
+  width: 100%;
 
 
 }
@@ -19,16 +19,16 @@ background-color: #161616;
 font-family: 'Lora', serif;
 }
 
-h1, h2, h3, h4, h5, h6{ 
+h1, h2, h3, h4, h5, h6{
 font-family: 'Open Sans', sans-serif;
 }
 
 
 
 .wrapper{
-	position: relative;
-	height: 100%;
-	width: 100%;
+  position: relative;
+  height: 100%;
+  width: 100%;
 }
 
 .centered-stuff{
@@ -38,25 +38,25 @@ font-family: 'Open Sans', sans-serif;
   transform: translate(-50%, -50%);
 }
 .border{
-	text-align: center;
-	padding-bottom: 20px;
-	opacity: .4;
+  text-align: center;
+  padding-bottom: 20px;
+  opacity: .4;
 
 }
 
 /*Title styling*/
 
 .section-title{
-	text-align: center;
-	padding-top: 1.2em;
-	padding-bottom: .2em;
-	font-family: 'Open Sans', sans-serif;
-	letter-spacing: 1.5px;
+  text-align: center;
+  padding-top: 1.2em;
+  padding-bottom: .2em;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1.5px;
 }
 
 .section-title h2{
-	margin-bottom: 0px;
-		font-size: 1.8em;
+  margin-bottom: 0px;
+    font-size: 1.8em;
 }
 
 
@@ -94,7 +94,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 /******* flip effect styling *********/
-.panel {  
+.panel {
     position: relative;
     -webkit-perspective: 600px;
     -moz-perspective: 600px;
@@ -129,7 +129,7 @@ font-family: 'Open Sans', sans-serif;
       -webkit-transform: rotateY(-180deg);
     -webkit-transform-style: preserve-3d;
     -webkit-backface-visibility: hidden;
- 
+
     -moz-transform: rotateY(-180deg);
     -moz-transform-style: preserve-3d;
     -moz-backface-visibility: hidden;
@@ -159,68 +159,68 @@ background-position:center;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-	
+
 }
 
 .hero{
 font-family: 'Open Sans', sans-serif;
-	text-align: center;
-	font-size: 11vw;
-	letter-spacing: 1px;
-	margin: 0;
-	white-space: nowrap;
-	padding: 0 20px;
-	max-height: 100px;
+  text-align: center;
+  font-size: 11vw;
+  letter-spacing: 1px;
+  margin: 0;
+  white-space: nowrap;
+  padding: 0 20px;
+  max-height: 100px;
 }
 
 .title {
-	padding-bottom: 0;
-	margin: 0;
+  padding-bottom: 0;
+  margin: 0;
 }
 
 .tagline {
-	margin:0;
-	text-align: center;
-	font-size: 18px;
-	font-size: 4.4vw;
+  margin:0;
+  text-align: center;
+  font-size: 18px;
+  font-size: 4.4vw;
 }
 
 .tagline-container{
-	width: 100%;
-	margin: 17px auto;
-	
+  width: 100%;
+  margin: 17px auto;
+
 }
 
 @media (min-width: 750px) {
-	.hero{
-		margin: 30px;
-	}
+  .hero{
+    margin: 30px;
+  }
 
-	.tagline{
-		font-size: 30px;
-		font-weight: 200;
-		margin-bottom: 30px;
-	}
-	.tagline-container{
-		margin-top: 0px;
-	}
-	}
+  .tagline{
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 30px;
+  }
+  .tagline-container{
+    margin-top: 0px;
+  }
+  }
 
 
-	@media (min-width: 1020px) {
-	
+  @media (min-width: 1020px) {
+
 .hero{
-	font-size: 95px;
-	max-height: 125px;
+  font-size: 95px;
+  max-height: 125px;
 }
 
-	.tagline-container{
-		padding-top: 0;
-		padding-bottom: 20;
-	}
+  .tagline-container{
+    padding-top: 0;
+    padding-bottom: 20;
+  }
 
-	.tagline {
-	font-size: 23px;
+  .tagline {
+  font-size: 23px;
 }
 }
 
@@ -232,11 +232,11 @@ font-family: 'Open Sans', sans-serif;
 
 /***** button styling *****/
 .custom-button{
-	display: inline-block;
-	width: 230px;
-	margin: 0 auto;
-	padding: 15px 26px 15px 26px;
-	margin-bottom: 10px;
+  display: inline-block;
+  width: 230px;
+  margin: 0 auto;
+  padding: 15px 26px 15px 26px;
+  margin-bottom: 10px;
     text-align: center;
     font-size: 12px;
     border-width: 1px;
@@ -249,14 +249,14 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .custom-button:hover{
-	padding-left: 55px;
-	padding-right: 0;
+  padding-left: 55px;
+  padding-right: 0;
 }
 
 .button-column{
-	display: block;
-	margin: 0 auto;
-	text-align: center;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
  }
 
  .button-column a{
@@ -265,14 +265,14 @@ color: white;
 
 @media (min-width: 750px) {
 .custom-button{
-    border-width: 2px; 
-    font-size: 18px; 
+    border-width: 2px;
+    font-size: 18px;
     padding: 20px 46px;
     width: 300px;
 }
 
 
- 
+
 .custom-button:hover{
    padding: 20px 46px;
 /*background: white;
@@ -280,23 +280,23 @@ transition: all 0.5s ease;*/
 color: white;
 box-shadow: inset 0 100px 0 0 #9B8150;
     -webkit-transition: all ease 0.8s;
-	-moz-transition: all ease 0.8s;
-	transition: all ease 0.8s
+  -moz-transition: all ease 0.8s;
+  transition: all ease 0.8s
 }
 }
 
 @media (min-width: 1020px){
-	.custom-button{
-		padding: 15px 26px 15px 26px;
-		font-size: 14px;
-		width: 230px;
-	}
+  .custom-button{
+    padding: 15px 26px 15px 26px;
+    font-size: 14px;
+    width: 230px;
+  }
 
 
 
-	.custom-button:hover{
-		padding: 15px 26px 15px 26px;
-	}
+  .custom-button:hover{
+    padding: 15px 26px 15px 26px;
+  }
 
 }
 
@@ -319,43 +319,43 @@ background-position:center;
 
 
 .bike-pop .centered-stuff{
-	top: 25%;
-	/*background-color: rgb() <--- find the color once you upload this
-*/	background-color: rgba(253, 235, 107, .3)
+  top: 25%;
+  /*background-color: rgb() <--- find the color once you upload this
+*/  background-color: rgba(253, 235, 107, .3)
 }
 
 .bike-pop h2{
-	font-size: 30px;
-	padding-bottom: 10px;
+  font-size: 30px;
+  padding-bottom: 10px;
 }
 .bike-pop .big{
-	font-size: 30px;
-	font-weight: bold;
-	color: #F31220;
+  font-size: 30px;
+  font-weight: bold;
+  color: #F31220;
 }
 
 .bike-pop p{
-	padding-bottom: 5%;
+  padding-bottom: 5%;
 }
 .bike-pop .custom-button{
-	border: 2px solid #333;
-	font-weight: bold;
+  border: 2px solid #333;
+  font-weight: bold;
 }
 
 .bike-pop .custom-button:hover{
-	border: 1px solid #333
-	color: #333;
+  border: 1px solid #333
+  color: #333;
 box-shadow: inset 0 100px 0 0  #F31220;
     -webkit-transition: all ease 0.8s;
-	-moz-transition: all ease 0.8s;
-	transition: all ease 0.8s
+  -moz-transition: all ease 0.8s;
+  transition: all ease 0.8s
 }
 }
 
 
 
 .bike-icon{
-	cursor: pointer;
+  cursor: pointer;
 }
 
 /********** Footer Styling ********/
@@ -370,38 +370,38 @@ padding-bottom: 5px;
 }
 
 footer h5{
-	cursor: pointer;
+  cursor: pointer;
 }
 
 footer a:visited{
-	color: white;
+  color: white;
 
 }
 footer:hover{
-	color: #9B8150;
-	-webkit-transition: all ease 0.8s;
-	-moz-transition: all ease 0.8s;
-	transition: all ease 0.8s
+  color: #9B8150;
+  -webkit-transition: all ease 0.8s;
+  -moz-transition: all ease 0.8s;
+  transition: all ease 0.8s
 }
 
 
 
 @media (min-width: 750px) {
-	.footer{
-		float: right;
-		margin-right: 30px;
-		letter-spacing: 3px;
-		font-size: 18px;
-	}
-	footer a{
-	text-decoration: none;
+  .footer{
+    float: right;
+    margin-right: 30px;
+    letter-spacing: 3px;
+    font-size: 18px;
+  }
+  footer a{
+  text-decoration: none;
 }
-	}
+  }
 
 @media (min-width: 1020px){
-	.footer{
-		font-size: 14px;
-	}
+  .footer{
+    font-size: 14px;
+  }
 }
 /********* social icons jump out ********/
 .footer{
@@ -412,7 +412,7 @@ footer:hover{
 .social-icon{
   position: absolute;
   top: -20px;
-  right: 45%; 
+  right: 45%;
   height: 50px;
   width: 65px;
   transition: transform .5s ease-in;
@@ -443,13 +443,13 @@ footer:hover{
 #social-move4{
 transform:  translate3d(50px,-50px, 0);
   transition: transform .5s ease-in;
-  z-index: 1; 
+  z-index: 1;
 }
 
 
 @media (min-width: 750px){
 .social-icon{
-  right: 75px; 
+  right: 75px;
   z-index: -1;
 }
 
@@ -474,7 +474,7 @@ transform:  translate3d(50px,-50px, 0);
 #social-move4{
 transform:  translateX(-250px);
   transition: transform .5s ease-in;
-  z-index: 1; 
+  z-index: 1;
 }
 
 }
@@ -482,10 +482,10 @@ transform:  translateX(-250px);
 /****** Verticle type styling *********/
 
 /*.verticle-text{
-	opacity: 0;
-	height: 0;
-	width: 0;
-	 position: fixed;
+  opacity: 0;
+  height: 0;
+  width: 0;
+   position: fixed;
     bottom: 58px;
     left: 41px;
     text-align: left;
@@ -500,9 +500,9 @@ transform:  translateX(-250px);
 }
 
 @media (min-width: 1025px) {
-	.verticle-text{
-	opacity: 1;
-	width: 200px;
+  .verticle-text{
+  opacity: 1;
+  width: 200px;
     height: 30px;
     margin: 0;
     color: #fff;
@@ -519,7 +519,7 @@ transform:  translateX(-250px);
     -ms-transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
-	}
+  }
 }*/
 
 /********* Portfolio Section *********/
@@ -527,7 +527,7 @@ transform:  translateX(-250px);
 
 .portfolio-wrapper{
 height: 100%;
-	}
+  }
 
 
 .portfolio-desc-box{
@@ -541,89 +541,89 @@ min-height: 250px;
 
 
 .portfolio-desc-box h3 {
-	font-size: 1.5em;
-	padding: 30px 10px;
-	letter-spacing: 1px;
-	font-weight: normal;
-	height: 40%;
-	text-align: center;
+  font-size: 1.5em;
+  padding: 30px 10px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  height: 40%;
+  text-align: center;
 }
 
 .portfolio-line{
-	border-color: #dccaa8;
-	width: 8%;
-	height: 10%;
+  border-color: #dccaa8;
+  width: 8%;
+  height: 10%;
 
 }
 .portfolio-info{
-	padding: 10px;
-	height: 40%;
+  padding: 10px;
+  height: 40%;
 
 }
 
 
 .portfolio-list{
-	list-style: none;
-	padding: 1.5em 0 1.5em 0;
+  list-style: none;
+  padding: 1.5em 0 1.5em 0;
 
 }
 
 .portfolio-list li {
-	font-weight: normal;
-	font-size: .8em;
-	letter-spacing: 1px;
+  font-weight: normal;
+  font-size: .8em;
+  letter-spacing: 1px;
 }
 
 .portfolio-desc-box:hover{
-/*	box-shadow: 0px 1px 0px red;*/
+/*  box-shadow: 0px 1px 0px red;*/
 color: #9B8150;
 -webkit-transition: all ease 0.8s;
-	-moz-transition: all ease 0.8s;
-	transition: all ease 0.8s
+  -moz-transition: all ease 0.8s;
+  transition: all ease 0.8s
 
 }
 
 
 .portfolio-desc-box:hover .portfolio-line{
 
-	width: 16%;
-	transition: all .5s .5s ease-out;
-	border-color: #9B8150;
+  width: 16%;
+  transition: all .5s .5s ease-out;
+  border-color: #9B8150;
 }
 
 @media (min-width: 750px){
 
 .section-title{
-	padding: .6em;
+  padding: .6em;
 }
 
 .section-title h2{
-	font-size: 3em;
+  font-size: 3em;
 }
 
 .portfolio-padding{
-	padding: 20px 120px;
+  padding: 20px 120px;
 }
 
 .portfolio-desc-box{
-	display: inline-block;
-	text-align: left;
-	float: none;
-	color: white;
-	min-height: 350px;
+  display: inline-block;
+  text-align: left;
+  float: none;
+  color: white;
+  min-height: 350px;
 }
 
 
 .portfolio-desc-box h3 {
-	font-size: 2em;
+  font-size: 2em;
 }
 
 .portfolio-info{
-	padding: 20px 10px 10px 10px;
+  padding: 20px 10px 10px 10px;
 }
 
 .portfolio-list{
-	font-size: 1.5em;
+  font-size: 1.5em;
 
 }
 
@@ -631,48 +631,48 @@ color: #9B8150;
 
 @media (min-width: 1020px){
 .portfolio-wrapper{
-	padding: 0 40px;
-	padding-bottom: 50px;
+  padding: 0 40px;
+  padding-bottom: 50px;
 }
 
 .section-title{
-	padding-top: .6em;
-	padding-bottom: .2em;
+  padding-top: .6em;
+  padding-bottom: .2em;
 }
 .section-title h2{
-	margin-bottom: 0px;
-	font-size: 2.8em;
+  margin-bottom: 0px;
+  font-size: 2.8em;
 }
 
 .portfolio-padding{
-	padding: 20px 100px;
+  padding: 20px 100px;
 }
 .portfolio-desc-box{
-	min-height: 300px;
+  min-height: 300px;
 }
 .portfolio-desc-box h3 {
-	font-size: 1.5em;
-	letter-spacing: 1px;
+  font-size: 1.5em;
+  letter-spacing: 1px;
 
 }
 
 .portfolio-line{
-	height: 10%;
+  height: 10%;
 }
 
 .portfolio-info{
-	padding-left: 1em;
-	height: 50%;
+  padding-left: 1em;
+  height: 50%;
 }
 
 .portfolio-list{
-	list-style: none;
-	font-size: 1em;
+  list-style: none;
+  font-size: 1em;
 }
 
 .portfolio-list li {
-	font-size: .8em;
-	letter-spacing: 1px;
+  font-size: .8em;
+  letter-spacing: 1px;
 }
 
 
@@ -683,148 +683,144 @@ color: #9B8150;
 
 /************ About me section *************/
 #about-me{
-	background-color: #363636;
-	display: inline-block;
+  background-color: #363636;
+  display: inline-block;
 }
 
 .about-me-text{
-	font-size: 1.2em;
+  font-size: 1.2em;
 /*padding: 0 0 0 80px;*/
-	margin: 0;
+  margin: 0;
 }
 
 .about-me-text p{
-	padding-bottom: 1.2em;
+  padding-bottom: 1.2em;
 }
 
 .self-photo{
-	border-radius: 30px;
-	height: 240px;
-	width: 300px;
-	display: none;
+  border-radius: 30px;
+  height: 240px;
+  width: 300px;
+  display: none;
 }
 
 .contact{
-	background-color: #040404;
+  background-color: #040404;
 }
 
 .social-links{
-	display: inline-block;
-	text-align: center;
-	width: 100%;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
 }
 
 
 .social{
-	color: white;
-	padding: 10px 15px;
+  color: white;
+  padding: 10px 15px;
 }
 
 .about-me-img-wrapper{
-	display:none;
+  display:none;
 }
 
 @media (min-width: 750px){
 #about-me{
-	padding: 50px 50px 0 50px;
-}
-
-.about-me-content{
-	padding-top: 30px;
+  padding: 50px 50px 0 50px;
 }
 
 .about-me-text{
-	font-size: 1.8em;
+  font-size: 1.8em;
 /*padding: 0 0 0 80px;*/
-	margin: 0;
+  margin: 0;
 }
 
 .about-me-text p{
-	font-size: 1em;
+  font-size: 1em;
 }
 
 
-	}
+  }
 
 @media (min-width: 1020px){
-	.self-photo{
-		display: inline-block;
-	}
-	.about-me-text p{
-		font-size: .7em;
-	}
+  .self-photo{
+    display: inline-block;
+  }
+  .about-me-text p{
+    font-size: .7em;
+  }
 
-	.about-me-img-wrapper{
-		display: inline-block;
-		text-align: center;
-	}
+  .about-me-img-wrapper{
+    display: inline-block;
+    text-align: center;
+  }
 }
 /* Portfolio pages stylings*/
 
 .portfolio-page{
-	background-color: #363636;
-	height: 100%;
-	width: 100%;
-	min-height:100vh;
+  background-color: #363636;
+  height: 100%;
+  width: 100%;
+  min-height:100vh;
 }
 
 .portfolio-page .section-title{
-	padding: 40px;
+  padding: 40px;
 }
 
 .portfolio-page .buttons{
-	text-align: center;
+  text-align: center;
 }
 
 .buttons a{
-	color: white;
+  color: white;
 }
 
 .portfolio-button{
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .desc-row{
-	width: 100%;
+  width: 100%;
 }
 .images{
-	text-align: center;
-	width: 100%;
-	margin-top: 50px;
-	display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+  display: inline-block;
 }
 .preview{
-	width: 90%;
-	margin: 10px 0;
+  width: 90%;
+  margin: 10px 0;
 
 }
 
 .description{
-	width: 100%;
-	display: inline-block;
-	float: right;
-	margin-top: 60px;
-	padding-left: 20px;
+  width: 100%;
+  display: inline-block;
+  float: right;
+  margin-top: 60px;
+  padding-left: 20px;
 
 }
 
 .description p{
-	padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 @media (min-width: 750px){
-	.description{
-		width: 45%;
-		margin-right: 25px;
-	}
+  .description{
+    width: 45%;
+    margin-right: 25px;
+  }
 
-	.images{
-		width: 45%;
-	}
-	.portfolio-button{
-		margin: 10px 150px;
-	}
-	}
+  .images{
+    width: 45%;
+  }
+  .portfolio-button{
+    margin: 10px 150px;
+  }
+  }
 
 @media (min-width: 1020px){
 
